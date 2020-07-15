@@ -130,6 +130,6 @@ dmypy.json
 run.sh
 
 # IDE (VS Code)
-*/.vscode
+sepiol/.vscode
 env.sh
 sepiol/env.sh
