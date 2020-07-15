@@ -64,7 +64,6 @@ def get_args():
     parser.add_argument('-u', '--user-id', help="Your twitch user id.")
     parser.add_argument('-c', '--client_id', help="The client ID of a Twitch app.")
     parser.add_argument('-s', '--secret', help="A sequence of characters given by twitch.tv")
-    parser.add_argument(-)
     jaraco.logging.add_arguments(parser)
     return parser.parse_args()
 
