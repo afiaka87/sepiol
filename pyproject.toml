@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "sepiol"
+version = "0.1.0"
+description = "Ping IRC when your twitch goes live."
+authors = ["Sam Sepiol"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+irc = "^18.0.0"
+requests = "^2.24.0"
+schedule = "^0.6.0"
+argparse = "^1.4.0"
+"jaraco.logging" = "^3.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+ptipython = "^1.0.1"
+flake8 = "^3.8.3"
+autopep8 = "^1.5.3"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
